@@ -1,0 +1,14 @@
+[package]
+name = "hello_world_afns"
+version = "0.1.0"
+author = "ApexForge"
+description = "Hello World project for NightScript"
+
+[target]
+mode = "native"
+backend = "c"
+
+[build]
+entry = "src/main.afns"
+output = "hello_world_afns"
+optimization = "debug"
